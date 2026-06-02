@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Server, Activity, Cpu, HardDrive, Bell, Settings, Gamepad2, Search, Plus, Play, Square, RotateCcw, Terminal, MoreVertical, Shield, Database, Wifi, AlertTriangle, CheckCircle2, XCircle, BarChart3 } from "lucide-react";
 
+const API_BASE_URL = "http://13.214.8.10:8000";
+
 const servers = [
-  { id: 1, name: "Win-VPS-01", ip: "103.123.45.67", os: "Windows Server 2022", status: "online", cpu: 35, ram: 62, disk: 48, uptime: "12h 30m" },
-  { id: 2, name: "Win-VPS-02", ip: "103.123.45.68", os: "Windows Server 2022", status: "online", cpu: 22, ram: 45, disk: 41, uptime: "8h 10m" },
-  { id: 3, name: "Win-VPS-03", ip: "103.123.45.69", os: "Windows Server 2019", status: "warning", cpu: 68, ram: 80, disk: 72, uptime: "5h 23m" },
-  { id: 4, name: "Win-VPS-04", ip: "103.123.45.70", os: "Windows Server 2022", status: "online", cpu: 18, ram: 33, disk: 29, uptime: "1d 2h" },
-  { id: 5, name: "Win-VPS-05", ip: "103.123.45.71", os: "Windows Server 2019", status: "offline", cpu: 0, ram: 0, disk: 0, uptime: "-" },
+  // { id: 1, name: "Win-VPS-01", ip: "103.123.45.67", os: "Windows Server 2022", status: "online", cpu: 35, ram: 62, disk: 48, uptime: "12h 30m" },
+  // { id: 2, name: "Win-VPS-02", ip: "103.123.45.68", os: "Windows Server 2022", status: "online", cpu: 22, ram: 45, disk: 41, uptime: "8h 10m" },
+  // { id: 3, name: "Win-VPS-03", ip: "103.123.45.69", os: "Windows Server 2019", status: "warning", cpu: 68, ram: 80, disk: 72, uptime: "5h 23m" },
+  // { id: 4, name: "Win-VPS-04", ip: "103.123.45.70", os: "Windows Server 2022", status: "online", cpu: 18, ram: 33, disk: 29, uptime: "1d 2h" },
+  // { id: 5, name: "Win-VPS-05", ip: "103.123.45.71", os: "Windows Server 2019", status: "offline", cpu: 0, ram: 0, disk: 0, uptime: "-" },
 ];
 
 const apps = [
@@ -133,14 +136,68 @@ function StatCard({ title, value, subtitle, icon: Icon, tone }) {
 }
 
 function Dashboard() {
+  const [dashboard, setDashboard] = useState(null);
+  const [liveServers, setLiveServers] = useState([]);
+
+  useEffect(() => {
+    fetchMetric();
+
+    const timer = setInterval(fetchMetric, 3000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  async function fetchMetric() {
+    try {
+    const dashboardRes = await axios.get(`${API_BASE_URL}/dashboard`);
+    const serversRes = await axios.get(`${API_BASE_URL}/servers`);
+
+    setDashboard(dashboardRes.data);
+    setLiveServers(serversRes.data);
+  } catch (error) {
+    console.log("Cannot fetch dashboard data", error);
+  }
+  }
+
+  async function sendCommand(workerId, action) {
+      try {
+        await axios.post(`${API_BASE_URL}/commands/${workerId}`, {
+          action,
+        });
+
+        alert(`Command ${action} sent to ${workerId}`);
+      } catch (error) {
+        console.log("Cannot send command", error);
+        alert("Send command failed");
+      }
+    }
+
+  const displayServers = liveServers.length > 0 ? liveServers : servers;
+  // const displayServers = liveMetric
+  //   ? [
+  //       {
+  //         id: 1,
+  //         name: liveMetric.hostname || "Worker-01",
+  //         ip: "Windows Worker",
+  //         os: "Windows",
+  //         status: "online",
+  //         cpu: Number(liveMetric.cpu || 0),
+  //         ram: Number(liveMetric.ram || 0),
+  //         disk: 0,
+  //         uptime: "Live",
+  //       },
+  //       ...servers.slice(1),
+  //     ]
+  //   : servers;
+
   return (
     <main className="p-6 space-y-6">
       <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
-        <StatCard title="Total Servers" value="12" subtitle="All time" icon={Server} tone="blue" />
-        <StatCard title="Online" value="9" subtitle="75% of total" icon={CheckCircle2} tone="green" />
-        <StatCard title="Offline" value="3" subtitle="25% of total" icon={XCircle} tone="red" />
-        <StatCard title="CPU Average" value="36%" subtitle="All servers" icon={Cpu} tone="purple" />
-        <StatCard title="RAM Average" value="61%" subtitle="All servers" icon={Database} tone="yellow" />
+        <StatCard title="Total Servers" value={dashboard?.total_servers ?? 0} subtitle="All workers" icon={Server} tone="blue" />
+        <StatCard title="Online" value={dashboard?.online ?? 0} subtitle="Active workers" icon={CheckCircle2} tone="green" />
+        <StatCard title="Offline" value={dashboard?.offline ?? 0} subtitle="No recent heartbeat" icon={XCircle} tone="red" />
+        <StatCard title="CPU Average" value={`${dashboard?.cpu_avg ?? 0}%`} subtitle="Online workers" icon={Cpu} tone="purple" />
+        <StatCard title="RAM Average" value={`${dashboard?.ram_avg ?? 0}%`} subtitle="Online workers" icon={Database} tone="yellow" />
       </section>
 
       <section className="grid grid-cols-1 xl:grid-cols-3 gap-6">
@@ -152,17 +209,19 @@ function Dashboard() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-slate-400">
-                <tr className="border-b border-slate-800">
+                <tr className="border-b border-slate-800">  
                   <th className="text-left py-3">Server</th>
                   <th className="text-left py-3">IP</th>
                   <th className="text-left py-3">Status</th>
                   <th className="text-left py-3">CPU</th>
                   <th className="text-left py-3">RAM</th>
                   <th className="text-left py-3">Uptime</th>
+                  <th className="text-left py-3">App</th>
+                  <th className="text-left py-3">Actions</th>
                 </tr>
               </thead>
               <tbody>
-                {servers.map((s) => (
+                {displayServers.map((s) => (
                   <tr key={s.id} className="border-b border-slate-800/60 text-slate-300">
                     <td className="py-3 font-medium text-blue-400">{s.name}</td>
                     <td>{s.ip}</td>
@@ -170,6 +229,50 @@ function Dashboard() {
                     <td>{s.cpu ? `${s.cpu}%` : "-"}</td>
                     <td>{s.ram ? `${s.ram}%` : "-"}</td>
                     <td>{s.uptime}</td>
+                    <td>
+                    <span
+                    className={
+                    s.app_status===
+                    "running"
+                    ?
+                    "text-emerald-400"
+                    :
+                    "text-red-400"
+                    }
+                    >
+
+                    <span>
+                      {s.app_status === "running" ? "🟢" : "🔴"}
+                    </span>
+
+                    </span>
+                    </td>
+
+                    <td>
+                      <div className="flex gap-2">
+                        <button
+                          onClick={() => sendCommand(s.id, "start")}
+                          className="rounded-lg bg-emerald-600/20 px-2 py-1 text-xs text-emerald-300"
+                        >
+                          Start
+                        </button>
+
+                        <button
+                          onClick={() => sendCommand(s.id, "stop")}
+                          className="rounded-lg bg-red-600/20 px-2 py-1 text-xs text-red-300"
+                        >
+                          Stop
+                        </button>
+
+                        <button
+                          onClick={() => sendCommand(s.id, "restart")}
+                          className="rounded-lg bg-yellow-600/20 px-2 py-1 text-xs text-yellow-300"
+                        >
+                          Restart
+                        </button>
+                      </div>
+                    </td>
+                    
                   </tr>
                 ))}
               </tbody>
