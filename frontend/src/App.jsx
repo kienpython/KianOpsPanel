@@ -138,6 +138,8 @@ function StatCard({ title, value, subtitle, icon: Icon, tone }) {
 function Dashboard() {
   const [dashboard, setDashboard] = useState(null);
   const [liveServers, setLiveServers] = useState([]);
+  const [liveLogs, setLiveLogs] = useState([]);
+
 
   useEffect(() => {
     fetchMetric();
@@ -149,8 +151,10 @@ function Dashboard() {
 
   async function fetchMetric() {
     try {
-    const dashboardRes = await axios.get(`${API_BASE_URL}/dashboard`);
-    const serversRes = await axios.get(`${API_BASE_URL}/servers`);
+      const dashboardRes = await axios.get(`${API_BASE_URL}/dashboard`);
+      const serversRes = await axios.get(`${API_BASE_URL}/servers`);
+      const logsRes = await axios.get(`${API_BASE_URL}/logs`);
+      setLiveLogs(logsRes.data);
 
     setDashboard(dashboardRes.data);
     setLiveServers(serversRes.data);
@@ -283,7 +287,7 @@ function Dashboard() {
         <div className="rounded-3xl border border-slate-800 bg-slate-900/60 p-5">
           <h3 className="text-lg font-semibold text-white mb-4">Recent Alerts</h3>
           <div className="space-y-3">
-            {logs.map((log, index) => (
+            {(liveLogs.length > 0 ? liveLogs : logs).map((log,index) => (
               <div key={index} className="flex gap-3 rounded-2xl bg-slate-950/60 p-3">
                 {log.type === "error" ? <XCircle className="h-5 w-5 text-red-400" /> : log.type === "warning" ? <AlertTriangle className="h-5 w-5 text-yellow-400" /> : <CheckCircle2 className="h-5 w-5 text-emerald-400" />}
                 <div>

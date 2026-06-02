@@ -12,6 +12,21 @@ APP_PATH = r"C:\Users\kienp\Downloads\Used\KianOpsPanel\KianWorker\dummy_app.py"
 app_process = None
 
 
+def send_log(log_type, message):
+    try:
+        requests.post(
+            f"http://{SERVER_IP}:8000/logs",
+            json={
+                "type":log_type,
+                "message":message,
+                "worker_id":WORKER_ID
+            },
+            timeout=5
+        )
+    except Exception as e:
+        print("Send log failed:",e)
+
+
 def get_app_status():
     global app_process  
     if app_process is None:
@@ -71,12 +86,14 @@ def start_app():
     global app_process
     if app_process and app_process.poll() is None:
         print("App already running")
+        send_log("warning", "App already running")
         return
     app_process = subprocess.Popen(
         ["python",APP_PATH],
         creationflags=subprocess.CREATE_NEW_CONSOLE
     )
     print("App started")
+    send_log("info", "App started successfully")
 
 def stop_app():
     global app_process
@@ -84,13 +101,17 @@ def stop_app():
         app_process.terminate()
         app_process = None
         print("App stopped")
+        send_log("info", "App stopped successfully")
+
     else:
         print("App is not running")
+        send_log("warning", "Stop failed: app is not running")
 
 def restart_app():
     stop_app()
     time.sleep(1)
     start_app()
+    send_log("info", "App restarted")
 
 def check_command():
     try:
