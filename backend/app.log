@@ -1,0 +1,1588 @@
+INFO:     Started server process [119070]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     14.224.184.165:60031 - "GET /health HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60031 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     14.224.184.165:60035 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60036 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60039 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60040 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60042 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60043 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60044 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60045 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60046 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60047 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60048 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60049 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60051 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60052 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60055 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60056 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60057 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60058 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60061 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60062 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60063 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60064 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60065 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60066 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60069 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60070 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60073 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60074 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60075 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60076 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60079 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60080 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60082 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60083 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60084 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60085 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60087 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60088 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60089 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60090 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60091 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60092 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60094 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60095 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60096 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60097 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60098 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60099 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60100 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60101 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60102 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60103 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60104 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60105 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60106 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60107 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60108 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60109 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60111 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60112 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60113 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60114 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60115 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60116 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60117 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60118 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60119 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60120 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60121 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60122 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60123 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60124 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60125 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60126 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60127 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60128 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60149 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60150 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60153 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60154 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60155 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60156 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60157 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60158 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60159 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60160 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60163 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60164 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60165 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60166 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60169 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60170 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60179 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60180 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60183 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60184 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60185 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60186 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60188 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60189 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60190 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60191 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60192 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60193 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60195 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60196 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60197 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60198 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60199 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60200 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60201 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60202 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60203 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60204 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60208 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60209 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60211 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60212 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60213 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60214 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60216 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60217 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60218 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60219 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60220 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60221 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60222 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60223 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60224 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60225 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60226 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60227 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60228 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60229 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60230 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60231 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60232 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60233 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60234 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60235 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60236 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60237 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60240 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60241 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60242 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60243 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60244 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60245 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60247 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60248 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60250 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60251 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60253 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60254 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60256 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60257 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60259 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60260 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60262 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60263 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60264 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60265 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60267 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60268 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60269 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60270 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60271 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60272 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60273 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60274 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60277 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60278 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60279 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60280 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60281 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60282 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60284 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60285 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60286 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60287 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60288 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60289 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60291 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60292 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60294 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60295 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60297 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60298 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60301 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60302 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60303 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60304 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60305 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60306 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60307 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60308 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60309 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60310 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60313 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60314 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60315 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60316 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60317 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60318 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60319 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60320 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60321 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60322 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60323 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60324 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60326 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60327 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60328 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60329 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60330 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60331 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60333 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60334 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60336 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60337 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60338 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60339 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60340 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60341 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60342 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60343 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60346 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60347 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60350 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60352 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60354 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60355 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60356 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60357 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60359 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60360 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60362 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60363 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60364 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60365 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60368 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60369 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60374 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60375 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60377 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60378 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60379 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60380 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60381 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60382 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60383 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60384 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60385 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60386 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60388 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60389 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60539 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60539 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60540 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60550 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "OPTIONS /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60549 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60551 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60584 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60585 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60586 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60587 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60587 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60587 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60592 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60587 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60594 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60587 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60587 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60601 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60603 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60607 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60608 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60609 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60610 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60611 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60612 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60613 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60614 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60617 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60618 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60619 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60620 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60621 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60622 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60623 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60624 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60595 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60625 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60626 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60628 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60629 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60630 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60632 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60634 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60635 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60636 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60637 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60638 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60640 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60641 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60642 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60643 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60645 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60645 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60646 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60647 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60648 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60649 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60650 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60651 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60652 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60653 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60654 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60655 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60657 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60658 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60659 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60660 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60662 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60663 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60664 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60665 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60667 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60668 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60671 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60672 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60674 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60675 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60676 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60644 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "POST /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60677 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60678 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60679 - "POST /logs HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/backend/venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/home/ubuntu/backend/app/main.py", line 35, in create_log
+    app_log(
+    ^^^^^^^
+NameError: name 'app_log' is not defined. Did you mean: 'add_log'?
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60680 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60681 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60683 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60684 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60686 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60687 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60688 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60689 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60691 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60692 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60693 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60694 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60695 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60696 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60697 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60698 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60702 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60703 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60704 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60705 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60706 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60707 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60708 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60709 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60710 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60711 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60712 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60713 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60714 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60715 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60717 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60718 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60719 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60720 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60722 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60723 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60724 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60725 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60726 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60727 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60730 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60731 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60732 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60733 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60734 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60735 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60736 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60737 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60738 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60739 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60740 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60741 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60742 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60743 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60745 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60746 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60747 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60748 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60751 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60752 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60755 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60756 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60633 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60758 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60759 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60760 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60760 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60760 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60761 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60762 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60763 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60764 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60769 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60770 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60771 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60772 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60775 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60776 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60780 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60781 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60783 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60784 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60785 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60786 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60789 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60790 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60791 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60792 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60794 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60795 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60796 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60797 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60798 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60799 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60801 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60802 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60803 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60803 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60803 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60804 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60805 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60806 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60807 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60809 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60810 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60814 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60815 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60817 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60818 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60819 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60820 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60841 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60842 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60843 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60844 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60845 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60846 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60847 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60848 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60849 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60850 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60853 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60854 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60859 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60860 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60861 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60863 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60864 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60864 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60864 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60865 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60866 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60867 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60868 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60870 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60871 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60872 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60873 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60874 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60875 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60876 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60877 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60878 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60879 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60880 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60881 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60885 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60886 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60888 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60889 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60890 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60891 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60892 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60893 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60898 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60900 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60901 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60902 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60906 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60906 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60906 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60908 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60909 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60910 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60911 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60913 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60914 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60917 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60918 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60919 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60920 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60921 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60922 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60923 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60924 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60925 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60926 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60927 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60928 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60929 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60930 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60932 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60933 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60936 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60938 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60944 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60945 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60946 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60947 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60949 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60949 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60949 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60950 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60951 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60952 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60953 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60957 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60958 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60959 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60960 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60961 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60962 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60963 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60964 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60965 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60966 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60967 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60968 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60969 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60970 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60973 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60974 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60975 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60976 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60980 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60981 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60985 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60986 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60988 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60990 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60993 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60993 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60993 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60994 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60995 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60996 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:60997 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61000 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61001 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61002 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61003 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61004 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61005 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61006 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61007 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61008 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61009 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61010 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61011 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61012 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61013 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61014 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61015 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61020 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61021 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61022 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61023 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61025 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61026 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61027 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61028 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61030 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61030 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61030 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61032 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61033 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61034 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61035 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61036 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61037 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61042 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61043 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61044 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61045 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61046 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61047 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61048 - "POST /metrics HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61049 - "GET /commands/DESKTOP-J13HRSA HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61057 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61057 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61057 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61068 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61068 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61068 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61078 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61078 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61078 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61085 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61085 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61085 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61094 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61094 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61094 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61120 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61120 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61120 - "GET /logs HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61132 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61132 - "GET /servers HTTP/1.1" 200 OK
+INFO:     14.224.184.165:61132 - "GET /logs HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [119070]
