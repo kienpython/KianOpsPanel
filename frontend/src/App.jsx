@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Server, Activity, Cpu, HardDrive, Bell, Settings, Gamepad2, Search, Plus, Play, Square, RotateCcw, Terminal, MoreVertical, Shield, Database, Wifi, AlertTriangle, CheckCircle2, XCircle, BarChart3 } from "lucide-react";
 
-const API_BASE_URL = "http://13.214.8.10:8000";
+const API_BASE_URL = "http://13.214.8.10/api";
 
 const servers = [
   // { id: 1, name: "Win-VPS-01", ip: "103.123.45.67", os: "Windows Server 2022", status: "online", cpu: 35, ram: 62, disk: 48, uptime: "12h 30m" },
